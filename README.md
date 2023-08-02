@@ -6,13 +6,13 @@ Implementation of CA-FATA
 In this paper we propose CA-FATA, context-aware features attribution through argumentation. Our framework harnesses the power of argumentation by treating each feature as an argument that can either support, attack or neutralize a prediction. Additionally, CA-FATA formulates feature attribution as an argumentation procedure, and each computation has explicit semantics, which makes it inherently interpretable. CA-FATA also easily integrates side information, such as users’ contexts, resulting in more accurate predictions.
 
 ## A toy example
-![A graphical representation of an argumentation procedure in a recommendation scenario. Each node represents an argument, at represents a feature of an item, the central node represents an argument "This item can be recommended to the target user". The value on the arc denotes the strength and polarity of the argument, "+" denotes supports, "-" denotes attacks, and "0" denotes neutralizes. ](https://github.com/JinfengZh/ca-fata/tree/master/figures/toy.png)
+![A graphical representation of an argumentation procedure in a recommendation scenario. Each node represents an argument, at represents a feature of an item, the central node represents an argument "This item can be recommended to the target user". The value on the arc denotes the strength and polarity of the argument, "+" denotes supports, "-" denotes attacks, and "0" denotes neutralizes. ](https://github.com/JinfengZh/ca-fata/blob/master/figures/toy.png)
 
 A graphical representation of an argumentation procedure in a recommendation scenario. Each node represents an argument, at represents a feature of an item, the central node represents an argument "This item can be recommended to the target user". The value on the arc denotes the strength and polarity of the argument, "+" denotes supports, "-" denotes attacks, and "0" denotes neutralizes.
 
 ## Major steps
 
-![The major steps CA-FATA](https://github.com/JinfengZh/ca-fata/tree/master/figures/framework.png)
+![The major steps CA-FATA](https://github.com/JinfengZh/ca-fata/blob/master/figures/framework.png)
 ## Structure of files
 * data file contains the data used to generate results, to generate the training and the test set, please refer to the data_processing_frappe.ipynb for the Frappe dataset and data_processing_yelp.ipynb for the Yelp dataset.
 * Figure files contains the toy example, major steps of CA-FATA and the cluster of the Frappe dataset. To generate the cluster, please refer to graph_frappe.ipynb for the Frappe dataset and graph_yelp.ipynb for the Yelp dataset.
