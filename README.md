@@ -31,4 +31,11 @@ python3 main.py --name 'Frappe' --e_epochs 100 --dim 256 --batch_size 256 --l2_w
 python3 main.py --name 'Yelp' --e_epochs 100 --dim 16 --batch_size 4096 --l2_weight 1e-3 --lr 5e-2 --context_or True --average_or True
 ```
 
-
+## Explanation scenarios of CA-FATA
+At least three applications for generating explanations can be envisaged: 
+### Toy templates
+| Scenario  | Content |Example |
+| ------------- | ------------- | ------------- |
+| SR  | Content Cell  |Content Cell  |
+| WR  | Content Cell  |Content Cell  |
+| NR  | Content Cell  |Content Cell  |
