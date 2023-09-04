@@ -36,6 +36,6 @@ At least three applications for generating explanations can be envisaged:
 ### Toy templates
 | Scenario  | Content |Example |
 | ------------- | ------------- | ------------- |
-| SR  | Content Cell  |Content Cell  |
+| SR  | $at_1 = \mathop{\arg\max}\limits_{at \in at_i}\mathcal{P}_{u_{cs}}^{at}$, $at_2 = \mathop{\arg\max}\limits_{at \in at_i \backslash at_1}\mathcal{P}_{u_{cs}}^{at}$  |Content Cell  |
 | WR  | Content Cell  |Content Cell  |
 | NR  | Content Cell  |Content Cell  |
