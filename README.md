@@ -34,8 +34,5 @@ python3 main.py --name 'Yelp' --e_epochs 100 --dim 16 --batch_size 4096 --l2_wei
 ## Explanation scenarios of CA-FATA
 At least three applications for generating explanations can be envisaged: 
 ### Toy templates
-| Scenario  | Content |Example |
-| ------------- | ------------- | ------------- |
-| SR  | $at_1 = \mathop{\arg\max}\limits_{at \in at_i}\mathcal{P}_{u_{cs}}^{at}$, $at_2 = \mathop{\arg\max}\limits_{at \in at_i \backslash at_1}\mathcal{P}_{u_{cs}}^{at}$  |Content Cell  |
-| WR  | Content Cell  |Content Cell  |
-| NR  | Content Cell  |Content Cell  |
+### Interactive explanations
+### COntrsative explanations
