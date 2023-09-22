@@ -35,4 +35,4 @@ python3 main.py --name 'Yelp' --e_epochs 100 --dim 16 --batch_size 4096 --l2_wei
 At least three applications for generating explanations can be envisaged: 
 ### Toy templates
 ### Interactive explanations
-### COntrsative explanations
+### Contrsative explanations
