@@ -1,5 +1,5 @@
 # CA-FATA
-Implementation of CA-FATA accepted in CARS Workshop@Recsys2023
+Implementation of CA-FATA submitted to  KR 2024
 
 ## Description
 
