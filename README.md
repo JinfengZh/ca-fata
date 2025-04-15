@@ -1,5 +1,5 @@
 # CA-FATA
-Implementation of CA-FATA submitted to  AAAI 2024
+Implementation of CA-FATA
 
 ## Description
 
